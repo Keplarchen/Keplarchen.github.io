@@ -1,0 +1,48 @@
+{% if site.data.settings.publications_settings.enable == true %}
+<!-- begin publications -->
+<section class="section publications">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title"><i class="fa-solid fa-star"></i> {{ site.data.settings.publications_settings.publications_title }}</h2>
+              <a class="section__link" href="{{ '/publications' | relative_url }}">View all <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            {% if site.data.settings.publications_settings.publications_description %}
+              <p class="section__description">{{ site.data.settings.publications_settings.publications_description }}</p>
+            {% endif %}
+          </div>
+
+          {% for pub in site.data.settings.publication_items %}
+          <article class="publication animate">
+            {% if pub.image %}
+            <div class="publication__image">
+              {% if pub.link %}<a href="{{ pub.link }}" target="_blank">{% endif %}
+              <img class="lazy" data-src="{{ pub.image | relative_url }}" alt="{{ pub.title }}">
+              {% if pub.link %}</a>{% endif %}
+            </div>
+            {% endif %}
+            <div class="publication__info">
+              <h3 class="publication__title">
+                {% if pub.link %}<a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+              </h3>
+              {% if pub.venue %}
+              <p class="publication__venue">{{ pub.venue }}</p>
+              {% endif %}
+              {% if pub.authors %}
+              <p class="publication__authors">{{ pub.authors }}</p>
+              {% endif %}
+            </div>
+          </article>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end publications -->
+{% endif %}

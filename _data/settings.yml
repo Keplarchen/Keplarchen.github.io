@@ -46,11 +46,32 @@ author:
 
 
 #-------------------------------
+# Publications Settings
+publications_settings:
+  enable: true
+  publications_title: Selected Works
+  publications_description:
+
+publication_items:
+  - title: "UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression"
+    venue: "NeurIPS, 2026"
+    authors: "Ziqi Wang, <b>Su Chen</b>, Qiance Tang, Jieyu Lin, Ziyun Li, Barbara De Salvo, Sai Qian Zhang"
+    image: "/images/project-1.jpg" # TODO: replace with the paper's teaser figure
+    link: "" # TODO: add OpenReview or arXiv link when public
+
+  - title: "EPIC: A System Framework for Efficient Egocentric Perception on Embodied AR Glasses"
+    venue: "Preprint, arXiv:2606.15859"
+    authors: "Tianhua Xia, Haiyu Wang, Jiajing Zheng, <b>Su Chen</b>, Sai Qian Zhang"
+    image: "/images/project-2.jpg" # TODO: replace with the paper's teaser figure
+    link: "https://arxiv.org/abs/2606.15859"
+
+
+#-------------------------------
 # Projects Settings
 projects_settings:
   enable: true
-  projects_title: Projects
-  projects_description: Selected research and engineering projects.
+  projects_title: Selected Projects
+  projects_description:
 
 
 #-------------------------------
