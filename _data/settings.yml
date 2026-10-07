@@ -22,14 +22,16 @@ breadcrumbs:
 # Navigation Settings
 menu_settings:
   menu_items:
-    - title: '🏠 Home'
+    - title: 'Home'
       url: '/'
-    - title: '🚀 Projects'
+    - title: 'Publications'
+      url: '/publications/'
+    - title: 'Projects'
       url: '/projects/'
-    - title: '👨🏻‍💻 About'
-      url: '/about/'
-    - title: '✍️ Blog'
+    - title: 'Blog'
       url: '/blog/'
+    - title: 'About'
+      url: '/about/'
 
 
 #-------------------------------
@@ -37,7 +39,7 @@ menu_settings:
 author:
   author_name: Su Chen
   author_role: M.S. in Computer Science @ NYU
-  author_bio: Hi! I'm Su Chen, an M.S. student in Computer Engineering at New York University's Tandon School of Engineering. My research interests lie in Computer Vision, Efficient AI, and Multimodal Large Language Models (MLLMs), especially in deploying deep models on edge devices such as AR/VR platforms. At NYU, I was very fortunate to work with <a href="https://www.saiqianzhang.com/" target="_blank">Prof. Saiqian Zhang</a>.<br><br>Before NYU, I received my B.Eng. of Information Engineering from Xi'an Jiaotong University.
+  author_bio: Hi! I'm Su Chen, an M.S. student in Computer Engineering at New York University's Tandon School of Engineering. My research interests lie in Computer Vision, Efficient AI, and Multimodal Large Language Models (MLLMs), especially in deploying deep models on edge devices such as AR/VR platforms. At NYU, I was very fortunate to work with <a href="https://www.saiqianzhang.com/" target="_blank">Prof. Saiqian Zhang</a>.<br><br>Before NYU, I received my B.Eng. in Information Engineering from Xi'an Jiaotong University.
   author_avatar: '/images/01-1.jpg' # TODO: replace with your own avatar
   # cta_button_text: Get In Touch
   # cta_button_link: 'mailto:sc11057@nyu.edu'
@@ -54,7 +56,7 @@ projects_settings:
 #-------------------------------
 # Testimonials Settings
 testimonials:
-  enable: True
+  enable: true
   testimonials_title: News
   testimonials_description:
 
@@ -63,7 +65,7 @@ testimonial_items:
     content: "Our paper UTOPI is accepted by NeurIPS 2026! See you in San Diego!"
 
   - name: "Sep 2025"
-    content: "Joined Prof. Saiqian Zhang's lab at NYU as a Research Intern!"
+    content: "Joined Prof. Saiqian Zhang's lab at NYU as a Research Assistant!"
 
   - name: "Sep 2024"
     content: "Started my Master's journey at NYU!"
