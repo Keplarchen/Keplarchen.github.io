@@ -7,7 +7,7 @@ image: '/images/01-2.jpg'
 page_cover: '/images/01.jpg'
 ---
 
-I am an M.S. student in Computer Science at **New York University** (2024 – 2026) and a research assistant at **NYU SAI Lab**, advised by Prof. Sai Qian Zhang. My research sits at the intersection of **multimodal large language models**, **efficient AI**, and **AR/VR systems** — making foundation models practical on resource-constrained devices such as smart glasses.
+I am an M.S. student in Computer Science at **New York University** (2024 – 2026) and a research assistant at **NYU SAI Lab**, advised by [Prof. Saiqian Zhang](https://www.saiqianzhang.com/). My research sits at the intersection of **multimodal large language models**, **efficient AI**, and **AR/VR systems** — making foundation models practical on resource-constrained devices such as smart glasses.
 
 Previously, I was a research intern at **Meta**, where I worked on on-device multimodal LLMs for AR/VR: gaze- and motion-guided visual token compression, multi-agent data generation pipelines, and distributed fine-tuning of Qwen2.5-VL on egocentric video understanding tasks.
 
