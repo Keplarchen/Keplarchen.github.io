@@ -40,7 +40,7 @@ author:
   author_name: Su Chen
   author_role: M.S. in Computer Science @ NYU
   author_bio: Hi! I'm Su Chen, an M.S. student in Computer Engineering at New York University's Tandon School of Engineering. My research interests lie in Computer Vision, Efficient AI, and Multimodal Large Language Models (MLLMs), especially in deploying deep models on edge devices such as AR/VR platforms. At NYU, I was very fortunate to work with <a href="https://www.saiqianzhang.com/" target="_blank">Prof. Saiqian Zhang</a>.<br><br>Before NYU, I received my B.Eng. in Information Engineering from Xi'an Jiaotong University.
-  author_avatar: '/images/01-1.jpg' # TODO: replace with your own avatar
+  author_avatar: '/images/sc_io_image/avatar.jpg'
   # cta_button_text: Get In Touch
   # cta_button_link: 'mailto:sc11057@nyu.edu'
 
