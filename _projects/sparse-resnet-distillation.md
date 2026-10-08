@@ -35,7 +35,7 @@ This is exactly the property zero-shot pruning needs: a weight distribution with
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/l1-vs-l2.png" loading="lazy" alt="L1 vs L2">
+    <img src="/images/sc_io_image/sparse_distill_l1vsl2.png" loading="lazy" alt="L1 vs L2">
   </div>
   <em>L1 vs L2</em>
 </div>
@@ -46,7 +46,7 @@ Weight sparsity alone does not cut inference FLOPs unless the hardware exploits 
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/soft-sigmoid.png" loading="lazy" alt="Soft Sigmoid">
+    <img src="/images/sc_io_image/sparse_distill_softsigmoid.png" loading="lazy" alt="Soft Sigmoid">
   </div>
   <em>Soft Sigmoid</em>
 </div>
@@ -55,7 +55,7 @@ The gate has three knobs, and each one matters. **Temperature** controls how ste
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/soft-sigmoid-temperature.png" loading="lazy" alt="Soft Sigmoid Temperature">
+    <img src="/images/sc_io_image/sparse_distill_sigmoidtemperature.png" loading="lazy" alt="Soft Sigmoid Temperature">
   </div>
   <em>Soft Sigmoid Temperature</em>
 </div>
@@ -64,7 +64,7 @@ The gate has three knobs, and each one matters. **Temperature** controls how ste
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/soft-sigmoid-offset.png" loading="lazy" alt="Soft Sigmoid Offset">
+    <img src="/images/sc_io_image/sparse_distill_offset.png" loading="lazy" alt="Soft Sigmoid Offset">
   </div>
   <em>Soft Sigmoid Offset</em>
 </div>
@@ -73,7 +73,7 @@ The **upper bound** caps the gated response so that already confident activation
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/soft-sigmoid-upper-bound.png" loading="lazy" alt="Soft Sigmoid Upper Bound">
+    <img src="/images/sc_io_image/sparse_distill_upperbound.png" loading="lazy" alt="Soft Sigmoid Upper Bound">
   </div>
   <em>Soft Sigmoid Upper Bound</em>
 </div>
@@ -82,7 +82,7 @@ Combining the gate with temperature-scaled KL yields our soft KL divergence term
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/soft-kl-divergence.png" loading="lazy" alt="Soft KL Divergence">
+    <img src="/images/sc_io_image/sparse_distill_softkl.png" loading="lazy" alt="Soft KL Divergence">
   </div>
   <em>Soft KL Divergence</em>
 </div>
@@ -91,7 +91,7 @@ Compared with standard KL distillation, the soft-gated variant concentrates the 
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/soft-vs-standard-kl.png" loading="lazy" alt="Soft KL Divergence vs. Standard KL Divergence">
+    <img src="/images/sc_io_image/sparse_distill_softvsnonsoft.png" loading="lazy" alt="Soft KL Divergence vs. Standard KL Divergence">
   </div>
   <em>Soft KL Divergence vs. Standard KL Divergence</em>
 </div>
@@ -102,7 +102,7 @@ The full loss blends a classification loss on ground-truth labels, the layer-wis
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/distillation-diagram.png" loading="lazy" alt="Distillation Diagram">
+    <img src="/images/sc_io_image/sparse_distill_diagram.jpg" loading="lazy" alt="Distillation Diagram">
   </div>
   <em>Distillation Diagram</em>
 </div>
@@ -115,7 +115,7 @@ We evaluate under two settings: equal-capacity distillation, where teacher and s
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/weight-pruning-performance.png" loading="lazy" alt="Weight Pruning Performance">
+    <img src="/images/sc_io_image/sparse_distill_sparsity_eval.png" loading="lazy" alt="Weight Pruning Performance">
   </div>
   <em>Weight Pruning Performance</em>
 </div>
@@ -126,7 +126,7 @@ The activation side is where the method pays off most. Within an accuracy drop b
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/activation-pruning-performance.png" loading="lazy" alt="Activation Pruning Performance">
+    <img src="/images/sc_io_image/sparse_distill_flops_eval.png" loading="lazy" alt="Activation Pruning Performance">
   </div>
   <em>Activation Pruning Performance</em>
 </div>
