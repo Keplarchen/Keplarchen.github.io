@@ -25,7 +25,7 @@ The training set contains 2.5 million trajectories. Each observation tensor has 
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/jepa_training_sample.png" loading="lazy" alt="Training sample">
+    <img src="/images/sc_io_image/data.png" loading="lazy" alt="Training sample">
   </div>
   <em>Training sample</em>
 </div>
@@ -38,7 +38,7 @@ The system has three parts: an encoder for the initial observation, a predictor 
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/jepa_architecture.png" loading="lazy" alt="JEPA Architecture">
+    <img src="/images/sc_io_image/jepa_structure.png" loading="lazy" alt="JEPA Architecture">
   </div>
   <em>JEPA Architecture</em>
 </div>
@@ -53,7 +53,7 @@ One normalization decision turned out to matter more than the rest of the design
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/jepa_encoder.png" loading="lazy" alt="Encoder">
+    <img src="/images/sc_io_image/encoder.jpg" loading="lazy" alt="Encoder">
   </div>
   <em>Encoder</em>
 </div>
@@ -64,7 +64,7 @@ The predictor stays deliberately small, because its job is an affine update in l
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/jepa_predictor.png" loading="lazy" alt="Predictor">
+    <img src="/images/sc_io_image/predictor.jpg" loading="lazy" alt="Predictor">
   </div>
   <em>Predictor</em>
 </div>

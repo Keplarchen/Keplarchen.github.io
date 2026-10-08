@@ -9,7 +9,7 @@ color_scheme: auto # auto | light | dark
 # Global Cover
 global_cover:
   enable: true
-  homepage_image: "/images/01.jpg" # TODO: replace with your own cover image
+  homepage_image: "/images/sc_io_image/nyu-cover.jpg"
 
 
 #-------------------------------
