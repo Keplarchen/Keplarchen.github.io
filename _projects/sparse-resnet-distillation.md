@@ -120,6 +120,18 @@ We evaluate under two settings: equal-capacity distillation, where teacher and s
   <em>Weight Pruning Performance</em>
 </div>
 
+The table below lists the highest weight sparsity each model reaches while staying within a 1 percent or 5 percent accuracy drop. The suffix b marks the baseline student, b_l2 its L2-regularized variant, and d_18 and d_34 our students distilled from ResNet18 and ResNet34 teachers.
+
+<div class="table-container">
+  <table>
+    <tr><th>Model</th><th>Sparsity 1% Acc Drop</th><th>Sparsity 5% Acc Drop</th></tr>
+    <tr><td>ResNet18_b</td><td>84.55%</td><td>88.42%</td></tr>
+    <tr><td>ResNet18_b_l2</td><td>90.80%</td><td>93.67%</td></tr>
+    <tr><td>ResNet18_d_18</td><td>92.40%</td><td>95.16%</td></tr>
+    <tr><td>ResNet18_d_34</td><td>92.26%</td><td>94.92%</td></tr>
+  </table>
+</div>
+
 ### Activation Pruning and FLOPs
 
 The activation side is where the method pays off most. Within an accuracy drop budget of 1 to 5 percent, pruning low-magnitude activations cuts effective FLOPs by **4 to 5 times** relative to the unpruned student.
@@ -129,6 +141,18 @@ The activation side is where the method pays off most. Within an accuracy drop b
     <img src="/images/sc_io_image/sparse_distill_flops_eval.png" loading="lazy" alt="Activation Pruning Performance">
   </div>
   <em>Activation Pruning Performance</em>
+</div>
+
+The remaining FLOPs under the same two accuracy budgets tell the story in absolute numbers. The distilled students run on a fraction of the compute that the baseline needs at the same accuracy level.
+
+<div class="table-container">
+  <table>
+    <tr><th>Model</th><th>FLOPs 1% Acc Drop</th><th>FLOPs 5% Acc Drop</th></tr>
+    <tr><td>ResNet18_b</td><td>2,145,699</td><td>652,083</td></tr>
+    <tr><td>ResNet18_b_l2</td><td>1,515,353</td><td>436,349</td></tr>
+    <tr><td>ResNet18_d_18</td><td>392,288</td><td>145,507</td></tr>
+    <tr><td>ResNet18_d_34</td><td>345,217</td><td>141,789</td></tr>
+  </table>
 </div>
 
 ## Discussion
