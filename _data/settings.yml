@@ -100,7 +100,7 @@ testimonial_items:
 #-------------------------------
 # Blog Section
 blog_settings:
-  enable: true
+  enable: false
   blog_title: Writing
   blog_description:
 

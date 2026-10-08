@@ -5,6 +5,18 @@
 
 <body class="{% if site.data.settings.color_scheme == "auto" %}scheme--toggle{% else %}scheme--{{ site.data.settings.color_scheme }}{% endif %}">
 
+  <script>
+    (function () {
+      try {
+        var m = localStorage.getItem('color-scheme');
+        if (m === 'light' || m === 'dark') {
+          document.body.classList.remove('scheme--toggle', 'scheme--light', 'scheme--dark');
+          document.body.classList.add('scheme--' + m);
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}

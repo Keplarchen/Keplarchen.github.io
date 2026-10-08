@@ -102,3 +102,34 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 });
+
+/* ============================
+// Theme Toggle (auto -> light -> dark)
+============================ */
+(function () {
+  'use strict';
+  var btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  var modes = ['auto', 'light', 'dark'];
+  var icons = { auto: 'fa-circle-half-stroke', light: 'fa-sun', dark: 'fa-moon' };
+
+  function getMode() {
+    try { return localStorage.getItem('color-scheme') || 'auto'; } catch (e) { return 'auto'; }
+  }
+
+  function applyMode(m) {
+    document.body.classList.remove('scheme--toggle', 'scheme--light', 'scheme--dark');
+    document.body.classList.add(m === 'auto' ? 'scheme--toggle' : 'scheme--' + m);
+    btn.querySelector('i').className = 'fa-solid ' + icons[m];
+    btn.title = 'Theme: ' + m;
+  }
+
+  applyMode(getMode());
+
+  btn.addEventListener('click', function () {
+    var next = modes[(modes.indexOf(getMode()) + 1) % modes.length];
+    try { localStorage.setItem('color-scheme', next); } catch (e) {}
+    applyMode(next);
+  });
+})();
