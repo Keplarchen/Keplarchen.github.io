@@ -56,7 +56,7 @@ publication_items:
   - title: "UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression"
     venue: "NeurIPS, 2026"
     authors: "Ziqi Wang, <b>Su Chen</b>, Qiance Tang, Jieyu Lin, Ziyun Li, Barbara De Salvo, Sai Qian Zhang"
-    image: "/images/project-1.jpg" # TODO: replace with the paper's teaser figure
+    image: "/images/utopi-teaser.png"
     pdf: "/pdfs/UTOPI.pdf"
 
   - title: "EPIC: A System Framework for Efficient Egocentric Perception on Embodied AR Glasses"
