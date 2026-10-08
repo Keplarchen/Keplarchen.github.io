@@ -7,7 +7,6 @@ image: '/images/sc_io_image/yann-lecun-jepa.webp'
 page_cover:
 ---
 
-*Joint work with [Shawn Yin](https://shawnyin128.github.io/).*
 
 ## The Problem
 
