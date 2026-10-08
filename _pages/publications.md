@@ -3,7 +3,7 @@ layout: page
 title: 📄 Publications
 description: Publications and preprints by Su Chen.
 permalink: /publications/
-page_cover: '/images/12-1.jpg'
+page_cover: '/images/site/publications-cover.jpg'
 ---
 
 ## Conference Papers

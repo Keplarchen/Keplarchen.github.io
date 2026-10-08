@@ -3,7 +3,7 @@ title: 'JEPA-Based Mobile Trajectory Prediction'
 description: A lightweight joint embedding predictive architecture that rolls out object trajectories in latent space from an initial observation and an action sequence, with no visual input at inference time.
 date: 2025-12-01 10:00:00 +0300
 label: World Models
-image: '/images/sc_io_image/yann-lecun-jepa.webp'
+image: '/images/projects/jepa/yann-lecun-jepa.webp'
 page_cover:
 ---
 
@@ -24,7 +24,7 @@ The training set contains 2.5 million trajectories. Each observation tensor has 
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/data.png" loading="lazy" alt="Training sample">
+    <img src="/images/projects/jepa/data.png" loading="lazy" alt="Training sample">
   </div>
   <em>Training sample</em>
 </div>
@@ -37,7 +37,7 @@ The system has three parts: an encoder for the initial observation, a predictor 
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/jepa_structure.png" loading="lazy" alt="JEPA Architecture">
+    <img src="/images/projects/jepa/jepa_structure.png" loading="lazy" alt="JEPA Architecture">
   </div>
   <em>JEPA Architecture</em>
 </div>
@@ -52,7 +52,7 @@ One normalization decision turned out to matter more than the rest of the design
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/encoder.jpg" loading="lazy" alt="Encoder">
+    <img src="/images/projects/jepa/encoder.jpg" loading="lazy" alt="Encoder">
   </div>
   <em>Encoder</em>
 </div>
@@ -63,7 +63,7 @@ The predictor stays deliberately small, because its job is an affine update in l
 
 <div class="page__gallery__wrapper">
   <div class="page__gallery__images">
-    <img src="/images/sc_io_image/predictor.jpg" loading="lazy" alt="Predictor">
+    <img src="/images/projects/jepa/predictor.jpg" loading="lazy" alt="Predictor">
   </div>
   <em>Predictor</em>
 </div>
