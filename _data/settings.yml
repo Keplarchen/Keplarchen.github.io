@@ -58,12 +58,15 @@ publication_items:
     authors: "Ziqi Wang, <b>Su Chen</b>, Qiance Tang, Jieyu Lin, Ziyun Li, Barbara De Salvo, Sai Qian Zhang"
     image: "/images/project-1.jpg" # TODO: replace with the paper's teaser figure
     link: "" # TODO: add OpenReview or arXiv link when public
+    pdf: "/pdfs/UTOPI.pdf"
 
   - title: "EPIC: A System Framework for Efficient Egocentric Perception on Embodied AR Glasses"
     venue: "Preprint, arXiv:2606.15859"
     authors: "Tianhua Xia, Haiyu Wang, Jiajing Zheng, <b>Su Chen</b>, Sai Qian Zhang"
     image: "/images/project-2.jpg" # TODO: replace with the paper's teaser figure
     link: "https://arxiv.org/abs/2606.15859"
+    link_text: "arXiv"
+    pdf: "/pdfs/EPIC.pdf"
 
 
 #-------------------------------

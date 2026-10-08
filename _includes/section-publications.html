@@ -35,6 +35,12 @@
               {% if pub.authors %}
               <p class="publication__authors">{{ pub.authors }}</p>
               {% endif %}
+              {% if pub.pdf or pub.link %}
+              <p class="publication__links">
+                {% if pub.pdf %}<a class="publication__btn" href="{{ pub.pdf }}" target="_blank"><i class="fa-regular fa-file-pdf"></i> PDF</a>{% endif %}
+                {% if pub.link %}<a class="publication__btn" href="{{ pub.link }}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> {{ pub.link_text | default: "Link" }}</a>{% endif %}
+              </p>
+              {% endif %}
             </div>
           </article>
           {% endfor %}
