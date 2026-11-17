@@ -8,7 +8,7 @@ page_cover: '/images/site/publications-cover.jpg'
 
 ## Conference Papers
 
-**[UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](/pdfs/UTOPI.pdf)**<br>
+**[UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression](https://arxiv.org/abs/2611.11562)**<br>
 Ziqi Wang, <b>Su Chen</b>, Qiance Tang, Jieyu Lin, Ziyun Li, Barbara De Salvo, Sai Qian Zhang<br>
 <em>Conference on Neural Information Processing Systems (NeurIPS), 2026</em>
 

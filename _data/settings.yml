@@ -57,7 +57,9 @@ publication_items:
     venue: "NeurIPS, 2026"
     authors: "Ziqi Wang, <b>Su Chen</b>, Qiance Tang, Jieyu Lin, Ziyun Li, Barbara De Salvo, Sai Qian Zhang"
     image: "/images/publications/utopi-teaser.png"
-    pdf: "/pdfs/UTOPI.pdf"
+    link: "https://arxiv.org/abs/2611.11562"
+    link_text: "arXiv"
+    pdf: "https://arxiv.org/pdf/2611.11562"
 
   - title: "EPIC: A System Framework for Efficient Egocentric Perception on Embodied AR Glasses"
     venue: "Preprint, arXiv:2606.15859"
